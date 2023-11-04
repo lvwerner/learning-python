@@ -1,7 +1,7 @@
 qtd =0
 soma =0
 media =0
-valor = float(input("digite um valor:"))
+valor = float(input("digite um valor :"))
 
 while (valor > 0.0):
         soma = soma + valor
