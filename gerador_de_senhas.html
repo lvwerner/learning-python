@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerador de Senhas Mágica</title>
+</head>
+<body>
+    <h1>Gerador de Senhas Mágica</h1>
+    <form action="/app.py" method="post">
+        <label for="comprimento">Comprimento da Senha:</label>
+        <input type="number" name="comprimento" id="comprimento" required>
+        <input type="submit" value="Gerar Senha">
+    </form>
+    <p>Senha Gerada: {{ senha_gerada }}</p>
+</body>
+</html>
+ 
